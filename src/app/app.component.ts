@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
         title: 'Archibald',
         description : 'Mon meilleur ami depuis tout petit',
         createDate: new Date(),
-        snaps: 0,
+        snaps: 140,
         imageUrl: 'https://img.freepik.com/free-photo/beautiful-african-female-feeling-grateful_181624-46352.jpg?w=1380&t=st=1648747351~exp=1648747951~hmac=415ad77b2aaa414388a959fc891129b339fd1bcb8d4e079d5d5d1d1b3620087d',
         location: 'la montagne'
       },
