@@ -1,6 +1,6 @@
   <div class="face-snap-card" [ngClass]="{snapped: buttonText === 'Oops, onSnap!'}">
-    <h2>{{ faceSnap.title }}</h2>
-    <p> Mise en ligne le {{faceSnap.createDate }} </p>
+    <h2>{{ faceSnap.title | uppercase }}</h2>
+    <p> Mise en ligne le {{faceSnap.createDate | date: 'd MMMM yyyy, à HH:mm' }} </p>
     <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title">
     <p> {{ faceSnap.description }} </p>
     <p *ngIf="faceSnap.location">photo prise à {{ faceSnap.location }} </p>
